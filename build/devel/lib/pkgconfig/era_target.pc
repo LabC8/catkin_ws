@@ -1,0 +1,8 @@
+prefix=/home/jetson/catkin_ws/build/devel
+
+Name: era_target
+Description: Description of era_target
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

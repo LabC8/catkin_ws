@@ -1,0 +1,2 @@
+era_target
+-DCATKIN_DEVEL_PREFIX=/home/jetson/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/catkin_ws/install -DCATKIN_WHITELIST_PACKAGES=era_target -G Unix Makefiles

@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jetson/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "cmake.sourceDirectory": "${workspaceFolder}/src",
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "cmake.configureOnOpen": false,
+    "ros.distro": "melodic"
+}

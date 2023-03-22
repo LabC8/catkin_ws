@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "catkin_make_isolated",
+			"args": [
+				"--directory",
+				"/home/jetson/catkin_ws",
+				"-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+			],
+			"problemMatcher": [
+				"$catkin-gcc"
+			],
+			"group": "build",
+			"label": "catkin_make_isolated: build"
+		},
+		{
+			"type": "catkin_make",
+			"args": [
+				"--directory",
+				"/home/jetson/catkin_ws",
+				"-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+			],
+			"problemMatcher": [
+				"$catkin-gcc"
+			],
+			"group": "build",
+			"label": "catkin_make: build"
+		}
+	]
+}
